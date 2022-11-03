@@ -6,14 +6,14 @@ const Recent = () => {
   return (
     <div className="flex flex-col relative items-center justify-center mt-[138px]">
       <h2 className="text-white font-bold text-[1.5em]">RECENT PLAYS</h2>
-      <div className="mt-10 mb-[100px] w-[660px] border-2 border-[#1e1e1e] p-2 rounded-[20px] flex flex-col-reverse items-start justify-start">
+      <div className="mt-10 mb-[100px] md:w-[660px] border-2 border-[#1e1e1e] p-2 rounded-[20px] flex flex-col-reverse items-start justify-start">
         {recent.map((item: any, index: number) => (
           <div
             className="my-[10px] flex flex-col w-full relative border-2 border-[#1e1e1e] rounded-[14px]"
             key={`recent-${index}`}
           >
             <div className="flex justify-between bg-[#1E1E1E] rounded-t-[10px]">
-              <div className="flex items-center text-white text-[13px] p-3 cursor-pointer w-full relative">
+              <div className="flex items-center text-white text-[10px] md:text-[13px] p-3 cursor-pointer w-full relative">
                 <span className="px-2 mr-[5px] rounded-[5px] bg-[#0f0f0f] flex items-center text-white">
                   {item.who}
                 </span>
@@ -21,7 +21,7 @@ const Recent = () => {
                 <span className="flex bg-[#0f0f0f] rounded-[5px] mx-[5px] items-center py-1 px-[7px] gap-1">
                   <img
                     src={item.img}
-                    className="w-5 h-5 rounded-full"
+                    className="w-[18px] md:w-5 h-[18px] md:h-5 rounded-full"
                     alt="vault"
                   />
                   {item.bet}
@@ -29,7 +29,7 @@ const Recent = () => {
                 and
                 <span className="text-[#ff0] ml-[5px]">{item.result}</span>
                 <div
-                  className={`absolute z-10 min-w-[28px] py-1 px-[6px] rounded-[5px] -left-[26px] flex justify-center items-center ${
+                  className={`absolute z-10 min-w-[28px] py-1 px-[6px] rounded-[5px] -left-[16px] md:-left-[26px] flex justify-center items-center ${
                     item.color === "pink" ? "bg-[#da355c]" : "bg-[#222645]"
                   }`}
                 >

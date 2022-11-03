@@ -38,7 +38,7 @@ export const menu = [
   },
   {
     title: "Roulette",
-    svg: "/images/menu-svg/home.svg",
+    svg: "/images/menu-svg/roulette.svg",
     active: true,
     status: "Updated"
   },
@@ -56,37 +56,37 @@ export const menu = [
   },
   {
     title: "Mines",
-    svg: "/images/menu-svg/home.svg",
+    svg: "/images/menu-svg/mine.svg",
     active: false,
     status: ""
   },
   {
     title: "Crash",
-    svg: "/images/menu-svg/home.svg",
+    svg: "/images/menu-svg/mine.svg",
     active: false,
     status: ""
   },
   {
     title: "Dices",
-    svg: "/images/menu-svg/home.svg",
+    svg: "/images/menu-svg/mine.svg",
     active: false,
     status: ""
   },
   {
     title: "CoinFlip",
-    svg: "/images/menu-svg/home.svg",
+    svg: "/images/menu-svg/mine.svg",
     active: false,
     status: ""
   },
   {
     title: "LuckyNFT",
-    svg: "/images/menu-svg/home.svg",
+    svg: "/images/menu-svg/mine.svg",
     active: false,
     status: ""
   },
   {
     title: "Lottery",
-    svg: "/images/menu-svg/home.svg",
+    svg: "/images/menu-svg/mine.svg",
     active: false,
     status: ""
   },
@@ -139,7 +139,7 @@ export const keyboard = [
   },
   {
     value: "2",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "3",
@@ -147,7 +147,7 @@ export const keyboard = [
   },
   {
     value: "4",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "5",
@@ -155,7 +155,7 @@ export const keyboard = [
   },
   {
     value: "6",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "7",
@@ -163,7 +163,7 @@ export const keyboard = [
   },
   {
     value: "8",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "9",
@@ -171,11 +171,11 @@ export const keyboard = [
   },
   {
     value: "10",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "11",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "12",
@@ -183,7 +183,7 @@ export const keyboard = [
   },
   {
     value: "13",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "14",
@@ -191,7 +191,7 @@ export const keyboard = [
   },
   {
     value: "15",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "16",
@@ -199,7 +199,7 @@ export const keyboard = [
   },
   {
     value: "17",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "18",
@@ -211,7 +211,7 @@ export const keyboard = [
   },
   {
     value: "20",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "21",
@@ -219,7 +219,7 @@ export const keyboard = [
   },
   {
     value: "22",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "23",
@@ -227,7 +227,7 @@ export const keyboard = [
   },
   {
     value: "24",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "25",
@@ -235,7 +235,7 @@ export const keyboard = [
   },
   {
     value: "26",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "27",
@@ -243,11 +243,11 @@ export const keyboard = [
   },
   {
     value: "28",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "29",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "30",
@@ -255,7 +255,7 @@ export const keyboard = [
   },
   {
     value: "31",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "32",
@@ -263,7 +263,7 @@ export const keyboard = [
   },
   {
     value: "33",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "34",
@@ -271,7 +271,7 @@ export const keyboard = [
   },
   {
     value: "35",
-    color: "darkblue",
+    color: "darkBlue",
   },
   {
     value: "36",

@@ -16,22 +16,17 @@ const Sidebar = () => {
 
   return (
     <div
-      className="w-[248px] flex flex-col h-full bg-black border-r-[3px] border-r-line border-r-[#141414]"
+      className="max-w-[248px] flex flex-col h-full bg-black border-r-[3px] border-r-line border-r-[#141414] z-20"
       style={{ width: navWidth, height: "100%", overflow: "overlay" }}
     >
-      <header className="flex justify-center px-5 py-[10px] items-center just">
+      <header className="flex justify-center py-5 px-[10px] items-center just">
         <Logo className="w-[100px] h-full cursor-pointer" />
       </header>
       <div className="flex flex-col">
         {menu.map((item: any, index: number) => (
           <div className="flex items-center" key={`sidebar-${index}`}>
             <div
-              className={`w-[5px] h-[25px] ${
-                item.title === "Roulette" ? "bg-[#ff0]" : "bg-[#000]"
-              }  rounded-r-lg`}
-            />
-            <div
-              className="flex items-center gap-[7px] pr-[10px] pl-[20px] py-[10px] group cursor-pointer w-full"
+              className="flex items-center gap-[7px] pr-[10px] pl-[20px] h-10 group cursor-pointer w-full relative"
               key={`menu-${index}`}
             >
               <img
@@ -51,6 +46,11 @@ const Sidebar = () => {
                   {item.status}
                 </span>
               )}
+              <div
+                className={`w-[4px] h-[25px] ${
+                  item.title === "Roulette" ? "bg-[#ff0]" : "bg-[#000]"
+                } absolute -left-[0px] rounded-r-lg`}
+              />
             </div>
           </div>
         ))}
@@ -58,7 +58,7 @@ const Sidebar = () => {
       <div className="flex justify-between mt-auto pl-5 pr-[10px] mb-[15px]">
         <div className="flex items-center">
           <div className="flex w-10 h-10 items-center justify-center cursor-pointer">
-            <Twitter className="w-5 g-5" />
+            <Twitter className="w-5 g-5" fill="#fff" />
           </div>
           <div className="flex w-10 h-10 items-center justify-center cursor-pointer">
             <Discord className="w-5 g-5" />
